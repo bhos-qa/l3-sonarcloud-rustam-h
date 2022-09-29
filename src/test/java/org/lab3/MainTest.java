@@ -17,7 +17,7 @@ public class MainTest {
     void setUp() {
         permissionManager = new PermissionManager();
         permissions.put(PermissionLevel.ADMIN, "Admin");
-        permissions.put(PermissionLevel.USER, "User");  
+        permissions.put(PermissionLevel.USER, "User");
         permissions.put(PermissionLevel.DEVELOPER, "Developer");
     }
 
